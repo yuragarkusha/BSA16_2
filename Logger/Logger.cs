@@ -4,13 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Program
+namespace Logger
 {
-    class Program
+    public class Logger
     {
-        static void Main(string[] args)
-        {
-
-        }
     }
 }

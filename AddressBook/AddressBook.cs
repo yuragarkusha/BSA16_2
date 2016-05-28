@@ -4,13 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Program
+namespace AddressBook
 {
-    class Program
+    public class AddressBook
     {
-        static void Main(string[] args)
-        {
-
-        }
     }
 }
