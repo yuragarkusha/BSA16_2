@@ -49,6 +49,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AddressBook\AddressBookLib.csproj">
+      <Project>{24495A5E-9095-4CFD-87E0-AC4454791F4E}</Project>
+      <Name>AddressBookLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Logger\LoggerLib.csproj">
+      <Project>{E5DBCA6D-B337-41AD-95B7-380E786A4393}</Project>
+      <Name>LoggerLib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
